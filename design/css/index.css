@@ -647,7 +647,7 @@ margin-right: -5px;
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-    background-image: url(/design/pics/background/bg1.jpg);
+    background-image: url(/design/pics/2.jpg);
 }
 
 .who_are_we_2__img {
@@ -1521,13 +1521,12 @@ textarea {
         display: block;
         margin-bottom: 20px;
     }
-    .who_are_we_2__title{
-        margin-top: 10px;
+    .who_are_we_2__section{
+        display: none;
     }
     .who_are_we_2__title h1{
         font-size: 30px;
         margin-left: -80px;
-        width: 170%;
     }
     .who_are_we_2__desc{
         margin-left: -80px;
@@ -1551,9 +1550,11 @@ textarea {
     }
     .innovation_title,.market_title{
         margin-top: -10px;
+        margin-left: -40px;
     }
     .innovation_desc,.market_desc{
-        font-size: 12px;
+        font-size: 11px;
+        line-height: 20px;
         float: none;
         margin-left: -40px;
         margin-right: -40px;
@@ -1568,5 +1569,9 @@ textarea {
     }
     .menu div{
         margin-bottom: 100px;
+    }
+    .who_are_we_3_title{
+        position: relative;
+        margin-left:-55px;
     }
 }
